@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func PrintStr(str string) {
 	runes := []rune(str)
