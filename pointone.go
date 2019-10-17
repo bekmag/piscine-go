@@ -1,7 +1,7 @@
 package piscine
 
 func main() {
-	
+
 	b := 0
 
 	PointOne(&b)
@@ -9,6 +9,6 @@ func main() {
 }
 
 func PointOne(n *int) {
-	
-*n = *n + 1
+
+	*n = *n + 1
 }
