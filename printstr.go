@@ -1,8 +1,10 @@
 package piscine
 
+import "github.com/01-edu/z01"
+
 func PrintStr(str string) {
-	str := 0
-	for i := range str {
+	runes = []runes(str)
+	for i = range runes {
+		z01.PrintRune(runes(i))
 	}
-	return len
 }
