@@ -4,6 +4,7 @@ func StrRev(s string) string {
 	runes := []rune(s)
 	var a rune
 	for j := range runes {
+		j = j
 	}
 	for i := 0; i < (j+1)/2; i++ {
 		a = runes[i]
