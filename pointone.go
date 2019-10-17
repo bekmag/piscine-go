@@ -5,9 +5,7 @@ func PointOne(n *int) {
 }
 
 func main() {
-	
 	n := 0
 	PointOne(&n)
-	
 	println(n)
 }
