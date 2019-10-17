@@ -1,8 +1,8 @@
 package piscine
 
 func PrintStr(str string) {
-	len := '0'
-	for i := range len {
+	str := 0
+	for i := range str {
 	}
 	return len
 }
