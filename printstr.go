@@ -1,11 +1,7 @@
-package piscine
-
-import "github.com/01-edu/z01"
+package main
 
 func PrintStr(str string) {
-	str := str {
-		for index, word := range str {
-			z01.PrintRune(str)
-		}
-	}
+	len := 0 
+	for str := range len 
+		len++
 }
