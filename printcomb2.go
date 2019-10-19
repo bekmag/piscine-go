@@ -2,6 +2,7 @@ package piscine
 
 import "github.com/01-edu/z01"
 
+//PrintComb2 prints in ascending order on a single line all possible combinations of two different two-digit numbers
 func PrintComb2() {
 	for a := '0'; a <= '9'; a++ {
 		for b := '0'; b <= '9'; b++ {
