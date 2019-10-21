@@ -9,7 +9,7 @@ func FindNextPrime(nb int) int {
 	}
 	for i := 2; i <= nb/2; i++ {
 		for nb%i == 0 {
-			return nb + 1
+			return FindNextPrime(nb + 1)
 		}
 	}
 	return nb
