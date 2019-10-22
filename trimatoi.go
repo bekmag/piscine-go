@@ -39,7 +39,16 @@ func TrimAtoi(s string) int {
 			} else if j == '8' {
 				result += 8
 			} else if j == '9' {
-				result += 9package piscine
+				result += 9
+			}
+		}
+	}
+	if isneg == 1 {
+		result *= -1
+	}
+	return result
+}
+package piscine
 
 				func TrimAtoi(s string) int {
 					if s == "" {
