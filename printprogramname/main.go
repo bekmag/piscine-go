@@ -12,4 +12,5 @@ func main() {
 	for i := range runes {
 		z01.PrintRune(runes[i])
 	}
+	z01.PrintRune(10)
 }
