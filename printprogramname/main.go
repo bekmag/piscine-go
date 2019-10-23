@@ -1,11 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"os"
+
+	"github.com/01-edu/z01"
 )
 
 func main() {
-	fmt.Println(os.Args[0])
-
+	a := os.Args
+	runes := []rune(a[0])
+	for i := range runes {
+		z01.PrintRune(runes[i])
+	}
 }
