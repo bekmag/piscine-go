@@ -4,7 +4,7 @@ func SplitWhiteSpaces(str string) []string {
 	count := 0
 	strFound := false
 
-	for char := range str {
+	for _, char := range str {
 		if char == ' ' || char == '\n' || char == '\t' {
 			strFound = false
 		} else if !strFound {
@@ -17,7 +17,7 @@ func SplitWhiteSpaces(str string) []string {
 
 	fillIndex := -1
 	strFound = false
-	for char := range str {
+	for _, char := range str {
 		if char == ' ' || char == '\n' || char == '\t' {
 			strFound = false
 		} else {
